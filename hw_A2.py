@@ -1,6 +1,4 @@
-#!/usr/bin/python                                                            
-import sys
-import operator
+#!/usr/bin/python3                                                            
 
 for i in range (0, 10, 1):
     print ("Hello World!")
