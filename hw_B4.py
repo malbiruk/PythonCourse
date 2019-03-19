@@ -14,7 +14,6 @@ elif attempt1 < number:
 else:
     print('Верно!')
 
-attempt=0
 while True:
     attempt = input()
     attempt=int(attempt)
