@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 import random
 
-
 number=random.randint(1,100)
 
 attempt1 = input('Угадайте число от 1 до 100: ')
