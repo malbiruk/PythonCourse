@@ -26,7 +26,6 @@ for i in keys:
 probabilities=[0] # вероятность быть меньше первого случая 0
 
 # заполняем лист с вероятностями (для каждого случая вероятность соответствует сумме вероятностей предыдущих случаев)
-
 for i in range(1, len(values)):
     probability=values[i]/summa+probabilities[i-1]
     probabilities.append(probability)
