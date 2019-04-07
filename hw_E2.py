@@ -2,11 +2,6 @@
 
 import matplotlib.pyplot as plt
 import numpy as np
-from sklearn import datasets
-import pandas as pd
-import matplotlib as mpl
-
-mpl.rcParams['figure.figsize'] = (12, 8)
 
 # получаем данные
 pareto=np.random.pareto(1000, 1000)
