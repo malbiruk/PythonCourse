@@ -2,11 +2,6 @@
 
 import matplotlib.pyplot as plt
 import numpy as np
-from sklearn import datasets
-import pandas as pd
-import matplotlib as mpl
-
-mpl.rcParams['figure.figsize'] = (12, 8)
 
 # получаем данные
 poisson=np.random.poisson(1000, 1000)
