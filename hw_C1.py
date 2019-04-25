@@ -7,7 +7,7 @@ userlist=userlist.split()
 output=[]
 
 for i in range(1, len(userlist)):
-    if userlist[i] > userlist[i-1]:
+    if int(userlist[i]) > int(userlist[i-1]):
         output.append(userlist[i])
 
 print (' '.join(output))
